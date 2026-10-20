@@ -1,0 +1,26 @@
+{
+    "connectivity": 8,
+    "min_area_filter": 50,
+    "raw_counts": {
+        "connectivity_4": 22359,
+        "connectivity_8": 5765
+    },
+    "filtered_count": 299,
+    "total_components_before_filter": 2727,
+    "foreground_pixels": {
+        "initial": 600021,
+        "final": 314678
+    },
+    "morphological_sequence": [
+        {
+            "operation": "morphologyEx_OPEN",
+            "kernel_size": 3,
+            "iterations": 1
+        },
+        {
+            "operation": "morphologyEx_CLOSE",
+            "kernel_size": 3,
+            "iterations": 1
+        }
+    ]
+}
